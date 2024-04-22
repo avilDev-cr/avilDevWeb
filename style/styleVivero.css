@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 0 48%; /* Dos productos por línea en dispositivos móviles */
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para pantallas de tamaño medio (tabletas, por ejemplo) */
+@media (min-width: 600px) {
+    .product {
+        flex: 0 31%; /* Tres productos por línea en pantallas medianas */
+    }
+}
+
+/* Estilos para pantallas grandes (desktops) */
+@media (min-width: 900px) {
+    .product {
+        flex: 0 23%; /* Cuatro productos por línea en pantallas grandes */
+    }
+}
