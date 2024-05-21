@@ -1,11 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AvilDev</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="stylesheet" href="/style/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>AvilesDev</h1>
+      <nav class="navegacion">
+        <ul>
+          <li><a href="#inicio" rel="noopener noreferrer">Inicio</a></li>
+          <!-- <li><a href="#servicios">Servicios</a></li> -->
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contactanos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="inicio">
+      <h2>Bienvenidos a nuestra empresa</h2>
+      <p>
+        En AvilesDev, damos vida a las ideas innovadoras. Somos más que una
+        empresa de desarrollo, somos creadores de soluciones únicas que surgen
+        de la imaginación y se convierten en realidad. Nos enorgullece ser una
+        empresa que no solo desarrolla software, sino que también genera sus
+        propias ideas y las lleva al mundo.
+      </p>
+    </section>
+
+    <section id="servicios">
+      <h2>Nuestros Desafíos</h2>
+      <ul>
+        <li>Crear proyectos accesibles a todas las personas</li>
+        <li>Comprender las necesidades de los usuarios</li>
+        <li>En busca de más proyectos relevantes</li>
+      </ul>
+    </section>
+
+    <section id="proyectos">
+      <h2>Trabajando en proyectos</h2>
+
+        <div class="proyecto">
+            <img src="/img/ejemploRaw.webp" alt="Proyecto 1" />
+            <a href="#"
+            ><h3>Sitio Web para Raw Energy</h3></a>
+        </div>
+
+        <div class="proyecto">
+            <img src="/img/ejemploVivero.webp" alt="Carpooling" />
+            <a href="/proyectos/proyectoVivero.html"><h3>Sitio web para Vivero</h3></a>
+        </div>
+
+        
+    </section>
+
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        ¡Estamos aquí para ayudarte! Contáctanos a través de correo electrónico
+        o WhatsApp.
+      </p>
+
+      <div class="contacto-info">
+        <div class="contacto-correo">
+          <i class="fas fa-envelope"></i>
+
+          <a href="mailto:info@avilesdev.com"
+            ><img src="/img/correo-electronico-a.png" alt=""
+          /></a>
+        </div>
+
+        <div class="contacto-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+          <a href="https://api.whatsapp.com/send?phone=50687501596"
+            ><img src="/img/whatsapp.png" alt=""
+          /></a>
+          
+        </div>
+
+        <div>
+          <p>O bien ingresa aca para</p>
+          <a href="/proyectos/form.html"><button class="btn">Llenar Formulario</button></a>
+        </div>
+        
+
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 AvilesDev</p>
+    </footer>
+  </body>
+  <script src="/scriptcurso.js"></script>
 </html>
