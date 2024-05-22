@@ -1,386 +1,384 @@
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
 /* Reset de estilos */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html {
-    min-height: 100%;
-    position: relative;
+  min-height: 100%;
+  position: relative;
 }
 
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f2f2f2;
-    color: #333;
-    margin: 0;
-    margin-bottom: 90px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  margin-bottom: 90px;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 .navegacion ul li a:hover {
-    color: green;
+  color: green;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 section {
-    padding: 2rem;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /* .container{
 
 } */
-.proyecto{
-    margin-bottom: 35px;
+.proyecto {
+  margin-bottom: 35px;
 }
 
 .btn {
-    margin-top: 1.5rem;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+  margin-top: 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-
-
-img{
-        max-width: 100%;
-        height: auto;
-        border-radius: 5px;
-    }
-    
-
-
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
-    header {
-        padding: 1rem;
-    }
-    
-    section {
-        margin: 10px;
-    }
+  header {
+    padding: 1rem;
+  }
+
+  section {
+    margin: 10px;
+  }
 }
 
 /* Estilos para la secciÃ³n de contacto */
 #contacto {
-    background-color: #f9f9f9;
-    padding: 10px;
-    text-align: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  text-align: center;
 }
 
 #contacto h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-#contacto p{
-
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #666;
+#contacto p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #666;
 }
 
 /* Estilos para la informaciÃ³n de contacto */
 
-
 .contacto-correo,
 .contacto-whatsapp {
-    display: inline-block;
-    font-size: 1.2rem;
-    color: #333;
-    padding-bottom: 2rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #333;
+  padding-bottom: 2rem;
 }
 
 .contacto-correo i,
 .contacto-whatsapp i {
-
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .contacto-correo a,
 .contacto-whatsapp a {
-    color: #0077FF;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
+  color: #0077ff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 .contacto-correo img,
-.contacto-whatsapp img{
-    max-width: 4rem;
+.contacto-whatsapp img {
+  max-width: 4rem;
 }
 
 .contacto-correo a:hover,
 .contacto-whatsapp a:hover {
-    color: #0055CC;
+  color: #0055cc;
 }
 
 /* estilos para el form */
 /* Estilos generales */
 
 body {
-    font-family: sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-  }
-  
-  /* Estilos del formulario */
-  
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+
+/* Estilos del formulario */
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 5rem auto;
+  padding: 20px;
+  background-color: #f0f2f5;
+  border-radius: 5px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-form p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #212529;
+  outline: none;
+}
+
+/* Estilos para dispositivos mÃ³viles */
+
+@media (max-width: 575px) {
   .contact-form {
- 
     width: 100%;
-    max-width: 500px;
-    margin: 5rem auto;
-    padding: 20px;
-    background-color: #f0f2f5;
-    border-radius: 5px;
+    padding: 0 20px;
   }
-  
   .contact-form h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 20px;
   }
-  
   .contact-form p {
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 12px;
   }
-  
   .contact-form input,
   .contact-form textarea {
     width: 100%;
-    padding: 10px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
-  
-  .contact-form input:focus,
-  .contact-form textarea:focus {
-    border-color: #212529;
-    outline: none;
+  .contact-form input[type="submit"] {
+    width: 100%;
   }
-  
-
-  
-  /* Estilos para dispositivos mÃ³viles */
-  
-  @media (max-width: 575px) {
-    .contact-form {
-      width: 100%;
-      padding: 0 20px;
-    }
-    .contact-form h2 {
-      font-size: 20px;
-    }
-    .contact-form p {
-      font-size: 12px;
-    }
-    .contact-form input,
-    .contact-form textarea {
-      width: 100%;
-      margin-bottom: 5px;
-    }
-    .contact-form input[type="submit"] {
-      width: 100%;
-    }
-  }
-  /** footer **/
+}
+/** footer **/
 
 .footer {
-    background: #202020;
-    padding-top: 80px;
-    text-align: center;
+  background: #202020;
+  padding-top: 80px;
+  text-align: center;
 }
 
 .footer h3 {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 23px;
-    text-align: left;
-    color: #fff;
-    padding-bottom: 20px;
-    display: table;
-    text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 20px;
+  display: table;
+  text-transform: uppercase;
 }
 
 ul.social_icon {
-    padding-bottom: 14px;
-    width: 100%;
-    text-align: left;
+  padding-bottom: 14px;
+  width: 100%;
+  text-align: left;
 }
 
 ul.social_icon li {
-    display: inline-block;
+  display: inline-block;
 }
 
 ul.social_icon li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    border-radius: 30px;
-    margin: 0 3px;
-    color: #202020;
-    background: #fff;
-    width: 35px;
-    height: 35px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 30px;
+  margin: 0 3px;
+  color: #202020;
+  background: #fff;
+  width: 35px;
+  height: 35px;
+  flex-wrap: wrap;
 }
 
 ul.social_icon li a:hover {
-    color: #fff;
-    background: #33f033;
+  color: #fff;
+  background: #33f033;
 }
 
 .pad_roght2 {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .variat {
-    color: #fff;
-    text-align: left;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 28px;
+  color: #fff;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 ul.conta li {
-    color: #fff;
-    text-align: left;
-    padding-bottom: 20px;
-    font-size: 16px;
+  color: #fff;
+  text-align: left;
+  padding-bottom: 20px;
+  font-size: 16px;
 }
 
 ul.conta li i {
-    padding-right: 15px;
-    text-align: center;
-    font-size: 20px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 20px;
 }
 
 ul.conta li a {
-    color: #fff;
+  color: #fff;
 }
 
 ul.link_menu li {
-    display: block;
-    text-align: left;
+  display: block;
+  text-align: left;
 }
 
 ul.link_menu li a {
-    color: #fff;
-    font-size: 17px;
-    line-height: 28px;
-    display: block;
-    width: -moz-max-content;
+  color: #fff;
+  font-size: 17px;
+  line-height: 28px;
+  display: block;
+  width: -moz-max-content;
 }
 
 ul.link_menu li a:hover {
-    color: #33f033;
+  color: #33f033;
 }
 
 .bottom_form {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .bottom_form .enter {
-    border: inherit;
-    padding: 0px 119px 0px 0px;
-    width: 100%;
-    height: 45px;
-    background: transparent;
-    color: #4d4c4c;
-    font-size: 17px;
-    font-weight: 300;
-    float: left;
-    margin-bottom: 20px;
-    border-bottom: #fff solid 1px;
+  border: inherit;
+  padding: 0px 119px 0px 0px;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  color: #4d4c4c;
+  font-size: 17px;
+  font-weight: 300;
+  float: left;
+  margin-bottom: 20px;
+  border-bottom: #fff solid 1px;
 }
 
 .sub_btn {
-    font-size: 19px;
-    transition: ease-in all 0.5s;
-    background-color: transparent;
-    color: #fff;
-    padding: 8px 0px;
-    max-width: 147px;
-    width: 100%;
-    font-weight: 500;
-    text-transform: uppercase;
-    position: absolute;
-    right: 0;
+  font-size: 19px;
+  transition: ease-in all 0.5s;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 0px;
+  max-width: 147px;
+  width: 100%;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
 }
 
 .sub_btn:hover {
-    transition: ease-in all 0.5s;
-    color: #33f033;
+  transition: ease-in all 0.5s;
+  color: #33f033;
 }
 
 #hkh *::placeholder {
-    color: #4d4c4c;
-    opacity: 1;
+  color: #4d4c4c;
+  opacity: 1;
 }
 
 .copyright {
-    margin-top: 60px;
-    padding-bottom: 20px;
-    background-color: #fff;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  background-color: #fff;
 }
 
 .copyright p {
-    color: #000;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    padding-top: 25px;
-    font-weight: normal;
+  color: #000;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 25px;
+  font-weight: normal;
 }
 
 .copyright a {
-    color: #000;
+  color: #000;
 }
 
 .copyright a:hover {
-    color: #33f033;
+  color: #33f033;
 }
 
-
 /** end footer **/
-
-
