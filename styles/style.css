@@ -381,4 +381,29 @@ ul.link_menu li a:hover {
   color: #33f033;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten y no se salgan de la pantalla en pantallas más pequeñas */
+  gap: 0.7rem; /* Espacio entre los elementos */
+}
+
+.card {
+  flex: 1 1 18rem; /* Ajusta el ancho mínimo necesario */
+  max-width: 30rem; /* Asegura que las tarjetas no crezcan más de este tamaño */
+  margin: 10px 20px 30px 100px;
+  box-sizing: border-box; /* Incluye padding y border en el ancho y alto de los elementos */
+}
+
+.card img {
+  max-width: 100%; /* Asegura que las imágenes no se salgan del contenedor */
+  height: auto; /* Mantiene la proporción de las imágenes */
+}
+
 /** end footer **/
+#inicio h2{
+  
+width: 600px;
+
+margin: auto;
+
+}
