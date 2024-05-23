@@ -41,7 +41,10 @@ header {
 nav ul {
   list-style-type: none;
 }
-
+.social_icon li {
+  display: inline-block; /* Asegura que los íconos se alineen horizontalmente */
+  margin-top: 30px; /* Mueve los íconos 10 píxeles hacia abajo */
+}
 nav ul li {
   display: inline;
   margin-right: 20px;
@@ -224,7 +227,7 @@ body {
 
 .footer {
   background: #202020;
-  padding-top: 80px;
+  padding-top: 40px;
   text-align: center;
 }
 
@@ -247,6 +250,7 @@ ul.social_icon {
 
 ul.social_icon li {
   display: inline-block;
+  margin-top: 50px;
 }
 
 ul.social_icon li a {
@@ -400,10 +404,14 @@ ul.link_menu li a:hover {
 }
 
 /** end footer **/
-#inicio h2{
-  
-width: 600px;
+#inicio h2 {
+  width: 600px;
 
-margin: auto;
+  margin: auto;
+}
 
+
+#servicios h2 {
+  width: 350px;
+  margin: auto;
 }
